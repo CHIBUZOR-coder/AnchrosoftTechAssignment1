@@ -19,6 +19,7 @@ table {
     background-color: #fff;
     border-radius: 8px;
     overflow: hidden;
+    cursor: pointer;
 }
 
 thead {

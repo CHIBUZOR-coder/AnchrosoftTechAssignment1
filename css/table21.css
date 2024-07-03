@@ -25,6 +25,7 @@ table {
     color: rgb(38, 38, 34);
     width: 70%;
     font-size: larger;
+    cursor: pointer;
 }
 
 table th {

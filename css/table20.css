@@ -25,6 +25,7 @@ table {
     color: yellow;
     width: 70%;
     font-size: larger;
+    cursor: pointer;
 }
 
 table th {
