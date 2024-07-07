@@ -5,7 +5,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+
 
 
 
@@ -34,20 +34,20 @@ h2 {
     from {
         opacity: 0;
         transform: translateY(-20px) translateX(-20px);
-    
+
     }
 
     to {
         opacity: 1;
         transform: translateY(0) translateX(0);
-     
+
     }
 }
 
 .form form {
     animation: fadeIn 1s ease-in-out;
 
-    background: rgba(255, 0, 0, 0.7);
+    background: rgba(255, 0, 0, 0.8);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 30px;
@@ -58,7 +58,8 @@ h2 {
 }
 
 .form form:hover {
-    background:rgba(255, 0, 0, 0.9);
+    background: rgba(255, 0, 0, 1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
 }
 
 .space {
@@ -90,7 +91,7 @@ input[type="range"] {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-
+    background-color: rgba(213, 220, 220, 0.586);
 }
 
 .form form input[type="range"] {
@@ -106,7 +107,7 @@ input[type="email"]:focus {
 
 form button {
     background: white;
-    color:black;
+    color: black;
     border: none;
     padding: 10px 15px;
     border-radius: 4px;
@@ -126,7 +127,7 @@ form button:hover {
     padding: 50px;
 }
 
- 
+
 .space .links {
     padding: 50px;
     width: 40%;
