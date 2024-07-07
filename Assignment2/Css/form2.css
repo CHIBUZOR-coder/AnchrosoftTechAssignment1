@@ -30,17 +30,49 @@ h2 {
 
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px) translateX(40px);
+
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) translateX(0);
+
+    }
+}
+
 .form form {
-    background: rgba(53, 56, 148, 0.8);
+    animation: fadeIn 1s ease-in-out;
+
+    background: rgba(53, 56, 148, 0.6);
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 30px;
     width: 30vw;
     color: azure;
+    transition: ease-in-out .7s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
+
+.form form:hover {
+    background: rgba(53, 56, 148, 0.8);
+}
+
 
 .form form div {
     margin-bottom: 15px;
+}
+
+.space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0;
+
 }
 
 .form form label {
@@ -95,32 +127,23 @@ form button:hover {
     padding: 50px;
 }
 
-/* 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
 
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-} */
-
-.form form {
-    /* animation: fadeIn 1s ease-in-out; */
-    /* existing styles */
-    background: rgba(53, 56, 148, 0.6);
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    width: 60vw;
-    color: azure;
-    transition: ease-in-out .7s;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+.space .links {
+    padding: 50px;
+    width: 40%;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
 }
 
-.form form:hover {
-    background: rgba(53, 56, 148, 0.8);
+.space .links a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: ease-in-out .5s;
+    letter-spacing: 2px;
+}
+
+.space .links a:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }

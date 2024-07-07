@@ -30,11 +30,22 @@ h2 {
 
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 .form form {
-    /* animation: fadeIn 1s ease-in-out; */
-    /* existing styles */
-    background:rgba(27, 27, 106, 0.8);
+    animation: fadeIn 1s ease-in-out;
+
+    background: rgba(27, 27, 106, 0.8);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 30px;
@@ -53,6 +64,15 @@ h2 {
     margin-bottom: 15px;
 }
 
+.space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0;
+
+}
+
 .form form label {
     display: block;
     margin-bottom: 5px;
@@ -66,7 +86,7 @@ input[type="file"],
 input[type="color"],
 input[type="range"] {
     width: calc(100% - 22px);
-    /* Adjust width to account for padding and border */
+
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -93,7 +113,7 @@ form button {
     cursor: pointer;
     transition: ease-in-out .5s;
     font-weight: bold;
-    color:rgba(27, 27, 106, 0.952);
+    color: rgba(27, 27, 106, 0.952);
 }
 
 form button:hover {
@@ -107,15 +127,22 @@ form button:hover {
     padding: 50px;
 }
 
-/* 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
+.space .links {
+    padding: 50px;
+    width: 40%;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
 
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-} */
+.space .links a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: ease-in-out .5s;
+    letter-spacing: 2px;
+}
+
+.space .links a:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
