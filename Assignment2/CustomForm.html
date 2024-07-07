@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .del {
+            display: inline;
+        }
+
+        .dell {
+            display: block;
+        }
+
+        form {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: auto;
+        }
+
+        form div {
+            margin-bottom: 15px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+
+        button[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Form 1</h1>
+    <form action="">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+        </div>
+        <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write your message here" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="image">image</label>
+            <input type="file" placeholder="Quantity">
+        </div>
+        <div>
+            <label for="color">Color</label>
+            <input type="color" placeholder="Quantity">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h1>Form 2</h1>
+    <form action="">
+        <div>
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Enter your first name">
+        </div>
+        <div>
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Enter your last name">
+        </div>
+        <div>
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+        </div>
+
+        <div>
+            <label for="phone">Month</label>
+            <input type="month" id="phone" name="phone" placeholder="Enter your phone number">
+        </div>
+
+        <div>
+            <label for="phone">Best Programming Language</label>
+            <select name="Languages" title="Programming Languages" id="">
+                <option value="Html">Html</option>
+                <option value="Java">Java</option>
+                <option value="Javascript">Javascript</option>
+                <option value="Python">Python</option>
+            </select>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+
+    <h1>Form 3</h1>
+    <form action="">
+        <div>
+            <label for="productName">Product Name</label>
+            <input type="text" id="productName" name="productName" placeholder="Enter the product name">
+        </div>
+        <div>
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" name="quantity" placeholder="Enter the quantity">
+        </div>
+        <div>
+            <label for="deliveryDate">Delivery Date</label>
+            <input type="date" id="deliveryDate" name="deliveryDate">
+        </div>
+        <div>
+            <label class="dell" for="deliveryDate">
+                Country Visited</label>
+            <label class="del" for="deliveryDate">Nigeria</label>
+            <input type="checkbox" id="deliveryDate" name="deliveryDate">
+
+            <label class="del" for="deliveryDate">England</label>
+            <input type="checkbox" id="deliveryDate" name="deliveryDate">
+
+            <label class="del" for="deliveryDate">Canada</label>
+            <input type="checkbox" id="deliveryDate" name="deliveryDate">
+
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h1>Form 4</h1>
+    <form action="">
+        <div>
+            <label for="surveyQ1">Question 1</label>
+            <textarea id="surveyQ1" name="surveyQ1" placeholder="Enter your answer" rows="3"></textarea>
+        </div>
+        <div>
+            <label for="surveyQ2">Question 2</label>
+            <textarea id="surveyQ2" name="surveyQ2" placeholder="Enter your answer" rows="3"></textarea>
+        </div>
+        <div>
+            <label for="surveyQ3">Question 3</label>
+            <textarea id="surveyQ3" name="surveyQ3" placeholder="Enter your answer" rows="3"></textarea>
+        </div>
+
+        <div>
+            <label class="dell" for="deliveryDate">Best Food</label>
+            <label class="del" for="deliveryDate">Rice</label>
+            <input type="radio" id="deliveryDate" name="deliveryDate">
+
+            <label class="del" for="deliveryDate">Beans</label>
+            <input type="radio" id="deliveryDate" name="deliveryDate">
+
+            <label class="del" for="deliveryDate">Garri</label>
+            <input type="radio" id="deliveryDate" name="deliveryDate">
+
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+
+    <h1>Form 5</h1>
+    <form action="">
+        <div>
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter your full name">
+        </div>
+        <div>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob">
+        </div>
+        <div>
+            <label for="address">Address</label>
+            <textarea id="address" name="address" placeholder="Enter your address" rows="3"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+
+
+
+</body>
+
+</html>
