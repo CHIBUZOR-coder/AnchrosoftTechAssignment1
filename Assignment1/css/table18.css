@@ -25,7 +25,7 @@ td {
 table {
     border-spacing: 20px;
     background-color: rgb(218, 252, 168);
-    color: blue;
+    color: rgb(36, 41, 36);
     width: 20%;
     font-size: larger;
     /* border-collapse: collapse; */
@@ -34,7 +34,7 @@ table {
 
 
 table th {
-    color:black;
+    color: white;
 
 }
 
@@ -42,7 +42,7 @@ table th {
 
 .num {
 
-    color: black;
+    color: white;
 
 
 }

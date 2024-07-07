@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f900;
+
+
+
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.form form {
+    /* animation: fadeIn 1s ease-in-out; */
+    /* existing styles */
+    background:rgba(0, 128, 0, 0.716);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 30vw;
+    color: azure;
+    transition: ease-in-out .5s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+
+}
+
+.form form:hover {
+    background: rgba(0, 128, 0, 1);
+}
+
+.form form div {
+    margin-bottom: 15px;
+}
+
+.form form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form form input[type="text"],
+input[type="email"],
+textarea,
+input[type="file"],
+input[type="color"],
+input[type="range"] {
+    width: calc(100% - 22px);
+    /* Adjust width to account for padding and border */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+.form form input[type="range"] {
+    color: #333;
+}
+
+.form form input[type="text"],
+textarea,
+input[type="email"]:focus {
+    outline: none;
+    border: none;
+}
+
+form button {
+    background: white;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: ease-in-out .5s;
+    font-weight: bold;
+    color: green;
+}
+
+form button:hover {
+    background: rgba(0, 0, 0, 0.9);
+    transform: scale(1.1);
+    font-size: 0.9rem;
+    color: #f4f4f9;
+}
+
+.links {
+    padding: 50px;
+}
+
+/* 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+} */
