@@ -51,14 +51,21 @@
     font-size: 1.3rem;
     font-weight: 500;
     color: #000;
-}
-
-
-.header .navbar ul li a {
     transition: ease-in-out .5s;
 
     &:hover {
         color: gray;
+        transform: scale(1);
+    }
+}
+
+
+.header .navbar ul li {
+    transition: ease-in-out .5s;
+
+    &:hover {
+
+        transform: scale(1.1);
     }
 }
 
