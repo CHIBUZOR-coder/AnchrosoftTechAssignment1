@@ -54,7 +54,7 @@
     transition: ease-in-out .5s;
 
     &:hover {
-        color: gray;
+        color: rgb(150, 147, 147);
         transform: scale(1);
     }
 }
@@ -233,6 +233,11 @@ img-fluid {
 
 }
 
+.banner .item2 .dot2 {
+    background-color: #cfcfcf;
+  
+}
+
 .fa-solidd {
     background-color: blue;
     color: blue;
@@ -241,7 +246,9 @@ img-fluid {
 }
 
 .fa-xmark {
-    color: white;
+    color: blue;
+    background-color: #cfcfcf;
+    font-size: 2rem;
 
 }
 
