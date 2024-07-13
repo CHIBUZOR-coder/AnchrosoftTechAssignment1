@@ -235,7 +235,7 @@ img-fluid {
 
 .banner .item2 .dot2 {
     background-color: #cfcfcf;
-  
+
 }
 
 .fa-solidd {
@@ -389,6 +389,32 @@ img-fluid {
         width: 100%;
         font-size: 2.3rem;
         font-weight: bold;
+
+    }
+
+
+    .banner .item2 .video {
+        border: 8px solid rgb(29, 30, 29);
+        border-radius: 10px;
+        width: 50%;
+        background-color: rgb(228, 202, 202);
+        height: 70%;
+        z-index: 3;
+        position: relative;
+
+    }
+
+
+    .banner .item2 .dot1 {
+        top: 20%;
+        right: 10%;
+        border-radius: 100%;
+    }
+
+    .banner .item2 .dot2 {
+
+        top: 70%;
+        left: 10%;
 
     }
 
