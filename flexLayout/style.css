@@ -318,7 +318,7 @@ img-fluid {
     justify-content: center;
     align-items: center;
     /* background-color: bisque; */
-    flex-direction: row-reverse;
+
 
 
 }
@@ -326,12 +326,80 @@ img-fluid {
 .box {
     width: 30rem;
     height: 90vh;
-
+    /* row-gap: -8rem; */
 }
 
 /* .main .sec1 {
     background-color: aqua;
 } */
+
+
+
+.main .sec1 {
+    /* background-color: brown; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+}
+
+.main .sec1 .use {
+    text-align: center;
+    position: relative;
+    padding: 1rem;
+}
+
+
+.main .sec1 .use h3 {
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+
+.main .sec1 .use p {
+    color: rgba(129, 137, 144, 1);
+ 
+
+}
+
+.main .sec1 .use .info {
+    position: relative;
+    background-color: white;
+    color: blue;
+
+}
+
+.custom-size {
+    font-size: 4rem;
+    width: 2.5rem;
+    background-color: white;
+    color: blue;
+
+}
+
+
+/* 
+.main .sec1 .use1 {
+    background-color: blue;
+}
+
+
+.main .sec1 .use2 {
+    background-color: rgb(80, 80, 114);
+}
+
+.main .sec1 .use3 {
+    background-color: rgb(128, 128, 134);
+}
+
+.main .sec1 .use4 {
+    background-color: rgb(53, 186, 79);
+}
+ */
+
+
+
+
+
+
 
 .main .sec2 {
     /* background-color: rgb(113, 113, 144); */
@@ -345,8 +413,8 @@ img-fluid {
 
 .main .sec2 .vcontainer {
     /* background-color: rgb(236, 228, 242); */
-    height: 90%;
-    width: 48%;
+    height: 95%;
+    width: 50%;
     border: 8px solid rgb(29, 30, 29);
     border-radius: 15px;
     position: relative;
@@ -419,6 +487,7 @@ img-fluid {
     font-size: 2rem;
 
 }
+
 
 
 /* main done */
