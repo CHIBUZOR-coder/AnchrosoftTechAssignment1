@@ -41,6 +41,7 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    padding: 0 1rem;
     flex-wrap: wrap;
     padding-left: 1.5rem;
 }
@@ -64,7 +65,6 @@
     transition: ease-in-out .5s;
 
     &:hover {
-
         transform: scale(1.1);
     }
 }
@@ -317,7 +317,7 @@ img-fluid {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: bisque;
+    /* background-color: bisque; */
     flex-direction: row-reverse;
 
 
@@ -329,12 +329,12 @@ img-fluid {
 
 }
 
-.main .sec1 {
+/* .main .sec1 {
     background-color: aqua;
-}
+} */
 
 .main .sec2 {
-    background-color: blue;
+    /* background-color: rgb(113, 113, 144); */
     position: relative;
     display: flex;
     justify-content: center;
@@ -344,12 +344,14 @@ img-fluid {
 
 
 .main .sec2 .vcontainer {
-    background-color: rgb(236, 228, 242);
-    height: 80%;
-    width: 50%;
+    /* background-color: rgb(236, 228, 242); */
+    height: 90%;
+    width: 48%;
     border: 8px solid rgb(29, 30, 29);
-    border-radius: 10px;
+    border-radius: 15px;
     position: relative;
+    z-index: 3;
+
 }
 
 
@@ -359,6 +361,64 @@ img-fluid {
     object-fit: cover;
 }
 
+.main .sec2 .circle2 {
+    position: absolute;
+    height: 46%;
+    width: 46%;
+    right: 40%;
+    background: linear-gradient(blue, purple);
+    border-radius: 100%;
+    /* z-index: 1; */
+}
+
+
+.main .sec2 .mdots {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    padding: 1rem;
+    transform: rotate(80deg);
+    background-color: blue;
+    color: white;
+
+}
+
+
+.main .sec2 .mdot1 {
+    top: 18%;
+    right: 15%;
+    border-radius: 100%;
+}
+
+.sec2 .mdot2 {
+    top: 78%;
+    left: 15%;
+}
+
+
+
+.main .sec2 .mdot2 {
+    background-color: white;
+
+}
+
+.main .sec2 .fa-solidd {
+    background-color: blue;
+    color: blue;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.main .sec2 .fa-xmark {
+    color: blue;
+    background-color: white;
+    font-size: 2rem;
+
+}
 
 
 /* main done */
