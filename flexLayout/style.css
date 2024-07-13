@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    background: #fff;
+    height: 5rem;
+    padding: 1rem;
+    box-shadow: 0px 27px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.header .logo a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color: #000;
+    transition: ease-in-out .5s;
+
+    &:hover {
+        color: blue;
+    }
+}
+
+
+
+.header .navbar ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 1.5rem;
+}
+
+
+.header .navbar ul li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #000;
+}
+
+
+.header .navbar ul .navbar-btn .spann {
+    display: inline;
+    padding-left: 1rem;
+
+
+}
+
+.header .navbar ul li a {
+    transition: ease-in-out .5s;
+
+    &:hover {
+        color: gray;
+    }
+}
+
+
+.header .navbar ul li .navbar-btn {
+    color: #fff;
+    background-color: blueviolet;
+    padding: .6rem 1rem;
+    border-radius: 25px;
+    transition: ease-in-out .5s;
+
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.header .navbar ul li .navbar-btn:hover {
+    color: #fff;
+}
+
+
+
+
+/* banner */
+
+.banner {
+    width: 100%;
+    background: #cfcfcf;
+    /* background-color: #000; */
+    display: flex;
+    padding-top: 5rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner .banner-item {
+    width: 30rem;
+    height: 90vh;
+}
+
+
+
+img-fluid {
+    width: 150px;
+    height: 150px;
+}
+
+
+.banner .item1 {
+    /* background-color: burlywood; */
+    position: relative;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+
+
+.banner .item1 h4 {
+    position: relative;
+    width: 50%;
+    font-size: 4.3rem;
+    font-weight: bold;
+
+}
+
+.banner .item1 h4 {
+    position: relative;
+    width: 80%;
+}
+
+.banner .item1 p {
+    color: rgb(129, 137, 144);
+    font-size: 1.3rem;
+}
+
+
+.banner .item1 .text .txt {
+    margin: 1rem 0;
+}
+
+.banner .item1 .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem 0;
+    /* background-color: aqua; */
+
+}
+
+.banner .item1 .images .img {
+    height: 3rem;
+    width: 10rem;
+    border-radius: 5px;
+}
+
+.banner .item1 .images .imag1 {
+    background: url(./images/google.jpg) center center/ cover;
+}
+
+.banner .item1 .images .imag2 {
+    background: url(./images/apple.jpg) center center/ cover;
+}
+
+
+
+
+
+
+
+
+
+
+.banner .item2 {
+    /* background-color: rgb(88, 76, 59); */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .item2 .video {
+    border: 8px solid rgb(29, 30, 29);
+    border-radius: 10px;
+    width: 40%;
+    background-color: rgb(228, 202, 202);
+    height: 90%;
+    z-index: 3;
+    position: relative;
+
+}
+
+.banner .item2 .video .rela {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner .item2 .circle {
+    position: absolute;
+    height: 70%;
+    width: 70%;
+    background: linear-gradient(blue, purple);
+    border-radius: 100%;
+    z-index: 1;
+}
+
+
+.banner .item2 .dots {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    padding: 1rem;
+    transform: rotate(80deg);
+    background-color: blue;
+
+}
+
+.fa-solidd {
+    background-color: blue;
+    color: blue;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.fa-xmark {
+    color: white;
+
+}
+
+.banner .item2 .dot1 {
+    top: 20%;
+    right: 10%;
+    border-radius: 100%;
+}
+
+.banner .item2 .dot2 {
+
+    top: 80%;
+    left: 10%;
+
+}
+
+
+
+
+/* banner2 */
+.banner2 {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.banner2 .btext {
+    font-size: 2.5rem;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    margin-top: 4rem;
+
+}
+
+.banner2 .bimg {
+    position: relative;
+
+    width: 10%;
+    height: 5rem;
+    margin: 2rem 0;
+}
+
+.banner2 .bimg .sess path {
+    fill: #fff;
+    /* Adjust color as needed */
+}
