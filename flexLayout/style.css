@@ -32,9 +32,13 @@
 
 
 
-.header .navbar ul li {
+.header .navbar ul {
     list-style: none;
-    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
     padding-left: 1.5rem;
 }
 
@@ -46,13 +50,6 @@
     color: #000;
 }
 
-
-.header .navbar ul .navbar-btn .spann {
-    display: inline;
-    padding-left: 1rem;
-
-
-}
 
 .header .navbar ul li a {
     transition: ease-in-out .5s;
@@ -69,6 +66,10 @@
     padding: .6rem 1rem;
     border-radius: 25px;
     transition: ease-in-out .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
 
     &:hover {
         background-color: blue;
@@ -120,16 +121,12 @@ img-fluid {
 
 .banner .item1 h4 {
     position: relative;
-    width: 50%;
+    width: 80%;
     font-size: 4.3rem;
     font-weight: bold;
 
 }
 
-.banner .item1 h4 {
-    position: relative;
-    width: 80%;
-}
 
 .banner .item1 p {
     color: rgb(129, 137, 144);
@@ -222,6 +219,7 @@ img-fluid {
     padding: 1rem;
     transform: rotate(80deg);
     background-color: blue;
+    color: white;
 
 }
 
@@ -287,4 +285,133 @@ img-fluid {
 .banner2 .bimg .sess path {
     fill: #fff;
     /* Adjust color as needed */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:959.9px) {
+
+    .banner .item1 {
+        background-color: burlywood;
+
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .banner .item1 h4 {
+        position: relative;
+        width: 100%;
+        font-size: 4.3rem;
+        font-weight: bold;
+
+    }
+
+
+    .header .logo a {
+        text-decoration: none;
+        font-size: .8rem;
+        font-weight: bolder;
+        color: #000;
+        transition: ease-in-out .5s;
+
+        &:hover {
+            color: blue;
+        }
+    }
+
+
+    .header .navbar ul li a {
+        font-size: .8rem;
+    }
+
+
+    .header .navbar ul li .navbar-btn {
+        padding: .6rem .5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+    }
+}
+
+
+
+
+@media (max-width:420.99px) {
+
+    .banner .item1 {
+        background-color: rgb(21, 35, 194);
+
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .banner .item1 h4 {
+        position: relative;
+        width: 100%;
+        font-size: 2.3rem;
+        font-weight: bold;
+
+    }
+
+
+    .header .logo a {
+        text-decoration: none;
+        font-size: .9rem;
+        font-weight: bolder;
+        color: #000;
+        transition: ease-in-out .5s;
+
+        &:hover {
+            color: blue;
+        }
+    }
+
+
+    .header .navbar ul li a {
+        font-size: .7rem;
+    }
+
+    .banner .item1 p {
+        color: rgb(129, 137, 144);
+        font-size: .9rem;
+    }
+
+    .header .navbar ul li .navbar-btn {
+        padding: .2rem .2rem;
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+    }
+}
+
+
+
+
+
+@media (max-width:332.99px) {
+
 }
