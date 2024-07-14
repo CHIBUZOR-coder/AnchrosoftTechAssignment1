@@ -667,7 +667,7 @@ img-fluid {
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
     flex-wrap: wrap;
     gap: .5rem;
 
@@ -767,6 +767,7 @@ img-fluid {
         padding: 10rem 0 5rem 0;
     }
 }
+
 
 @media (max-width:420.99px) {
 
@@ -885,10 +886,6 @@ img-fluid {
 
     }
 
-    .sec-con2 {
-        padding: 0 1rem;
-    }
-
     .sec-con3 .sec-con3-child {
         text-align: center;
     }
@@ -898,5 +895,12 @@ img-fluid {
         padding: 0 2rem;
 
 
+    }
+}
+
+
+@media (max-width:499.99px) {
+    .sec-con2 {
+        padding: 0 1rem;
     }
 }
