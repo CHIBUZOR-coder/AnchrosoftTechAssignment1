@@ -294,7 +294,6 @@ img-fluid {
 
 .banner2 .bimg {
     position: relative;
-
     width: 10%;
     height: 5rem;
     margin: 2rem 0;
@@ -431,8 +430,8 @@ img-fluid {
 
 .sec-con .sec2 .circle2 {
     position: absolute;
-    height: 46%;
-    width: 46%;
+    height: 58%;
+    width: 58%;
     right: 40%;
     background: linear-gradient(blue, purple);
     border-radius: 100%;
@@ -457,14 +456,14 @@ img-fluid {
 
 
 .sec-con .sec2 .mdot1 {
-    top: 18%;
-    right: 15%;
+    top: 12%;
+    right: 9%;
     border-radius: 100%;
 }
 
 .sec-con .sec2 .mdot2 {
-    top: 78%;
-    left: 15%;
+    top: 86%;
+    left: 7%;
 }
 
 
