@@ -686,6 +686,18 @@ img-fluid {
 
 
 
+@media (min-width:960px) {
+
+.banner{
+        padding: 10rem 0 5rem 0;
+}
+
+
+
+
+
+}
+
 
 @media (max-width:420.99px) {
 
