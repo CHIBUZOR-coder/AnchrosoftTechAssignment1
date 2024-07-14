@@ -774,4 +774,48 @@ img-fluid {
         align-items: center;
         gap: .5rem;
     }
+
+
+
+    .sec-con .sec2 .vcontainer {
+        height: 70%;
+        width: 50%;
+
+    }
+
+
+    .sec-con .sec2 .mdot2 {
+        top: 18%;
+        right: 12%;
+        border-radius: 100%;
+    }
+
+    .sec-con .sec2 .mdot1 {
+        top: 78%;
+        left: 12%;
+
+    }
+
+    .sec-con .sec2 .circle2 {
+        position: absolute;
+        height: 48%;
+        width: 48%;
+        right: 40%;
+
+    }
+
+    .sec-con2 {
+        padding: 0 1rem;
+    }
+
+    .sec-con3 .sec-con3-child {
+        text-align: center;
+    }
+
+    .sec-con3 {
+
+        padding: 0 2rem;
+
+
+    }
 }
