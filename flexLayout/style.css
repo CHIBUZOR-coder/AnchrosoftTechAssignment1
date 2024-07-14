@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-
+/*************************************header*************************************************/
 .header {
     position: fixed;
     width: 100vw;
@@ -90,10 +90,11 @@
     color: #fff;
 }
 
+/*************************************header done*************************************************/
 
 
 
-/* banner */
+/*****************************************************banner **************************************/
 
 .banner {
     width: 100%;
@@ -118,7 +119,7 @@ img-fluid {
     height: 150px;
 }
 
-
+/*************banner_item1*******************/
 .banner .item1 {
     /* background-color: burlywood; */
     position: relative;
@@ -173,6 +174,7 @@ img-fluid {
     background: url(./images/apple.jpg) center center/ cover;
 }
 
+/***************** banner item1 done *******/
 
 
 
@@ -180,8 +182,7 @@ img-fluid {
 
 
 
-
-/* banner item2 */
+/***************** banner item2 *******/
 .banner .item2 {
     /* background-color: rgb(88, 76, 59); */
     position: relative;
@@ -267,10 +268,16 @@ img-fluid {
 
 }
 
-/* banner done */
+/*************banner_item2 done*******************/
+
+/***************************************** banner done ****************************************************************/
 
 
-/* banner2 */
+
+
+
+
+/****************************************** banner2 ********************************************************************************/
 .banner2 {
     position: relative;
     width: 100%;
@@ -305,18 +312,13 @@ img-fluid {
     /* Adjust color as needed */
 }
 
-/* banner2 done */
+/* ****************************************banner2 done *******************************************************************/
 
 
 
 
 
-/* Main */
-/* .sec-con {
-
-   
-} */
-
+/**************************************** Main  sec-con************************************************************************************/
 .sec-con .sec-con-con {
     width: 100%;
     position: relative;
@@ -634,7 +636,82 @@ img-fluid {
     background: url(./images/apple.jpg) center center/ cover;
 }
 
-/* main done */
+/**************** main sec-con done  ********************************************************/
+
+
+/****************Footer***********************************************************************/
+.footer {
+    background-color: #000;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+/* 
+.footer .footer-con {
+    background-color: yellow;
+} */
+
+.footer-con .word1 {
+    color: rgb(83, 110, 128);
+    padding: .5rem;
+}
+
+
+
+.footer-con .word2 {
+    color: rgb(83, 110, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    flex-wrap: wrap;
+    gap: .5rem;
+
+}
+
+.footer-con .word2 .list {
+    color: rgb(83, 110, 128);
+    transition: ease-in-out .5s;
+
+    &:hover {
+        color: white;
+        border-bottom: 1px solid white;
+    }
+}
+
+.footer-con .word2 a {
+
+    text-decoration: none;
+    color: rgb(83, 110, 128);
+
+}
+
+
+
+
+
+
+
+
+
+
+/****************Footer done***********************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -684,20 +761,12 @@ img-fluid {
     }
 }
 
-
-
 @media (min-width:960px) {
 
-.banner{
+    .banner {
         padding: 10rem 0 5rem 0;
+    }
 }
-
-
-
-
-
-}
-
 
 @media (max-width:420.99px) {
 
