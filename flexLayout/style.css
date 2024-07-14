@@ -250,7 +250,7 @@ img-fluid {
 .fa-xmark {
     color: blue;
     background-color: #cfcfcf;
-  
+
 
 }
 
@@ -312,23 +312,25 @@ img-fluid {
 
 
 /* Main */
-.sec-con {
+/* .sec-con {
+
+   
+} */
+
+.sec-con .sec-con-con {
     width: 100%;
     position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    /* background-color: bisque; */
-
-
-
+    padding: 6rem 0;
 }
 
 .sec-con .box {
     width: 30rem;
     height: 90vh;
-    /* row-gap: -8rem; */
+
 }
 
 
@@ -483,74 +485,69 @@ img-fluid {
 .sec-con .sec2 .fa-xmark {
     color: blue;
     background-color: white;
-
-
 }
-
-
 
 .sec-con2 {
     background-color: rgb(248, 249, 250);
+
+}
+
+.sec-con2 .sec-con2-con {
     display: flex;
-    padding-top: 5rem;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    padding: 6rem 0;
+
 }
 
 .sec-con2 .boxx {
     width: 30rem;
-
 }
-
-/* 
-.sec-con2 .boxx1 {
-   
-    position: relative;
-}
-
-
-.sec-con2 .boxx2 {
-    background-color: rgb(177, 165, 165);
-} */
-
 
 
 .sec-con2 .boxx1 h4 {
     font-size: 4rem;
 }
 
+.sec-con2 .boxx1 .h4-div {
+    margin: 2rem 0;
+}
+
+/* 
+.sec-con2 .boxx1 .boxx1-txt {
+    margin: 3rem 0;
+} */
 
 .sec-con2 .boxx1 .boxx1-txt p {
     color: rgb(129, 137, 144);
     font-size: 1.3rem;
+}
 
+
+
+.sec-con3 {
+    background-color: rgb(127, 127, 127);
+    height: 100vh;
+    position: relative;
+    padding: 5rem;
 
 }
 
-/* 
-.sec-con2 .sec-con2-text-con .sec-con2-txt {
-    margin: 1.5rem 0;
+
+
+.sec-con3 .sec-con3-child {
+    position: relative;
+    width: 40%;
+    margin-top: 1rem;
 }
- */
+
+.sec-con3 .sec-con3-child h4 {
+    color: white;
+    font-size: 4.2rem;
+}
 
 /* main done */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
