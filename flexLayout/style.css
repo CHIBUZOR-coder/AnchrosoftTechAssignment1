@@ -224,12 +224,12 @@ img-fluid {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
     border-radius: 100%;
     padding: 1rem;
     transform: rotate(80deg);
-    background-color: blue;
+
     color: white;
 
 }
@@ -242,14 +242,15 @@ img-fluid {
 .fa-solidd {
     background-color: blue;
     color: blue;
-    font-size: 1.3rem;
     font-weight: bold;
+    font-size: 1rem;
+    border-radius: 100%;
 }
 
 .fa-xmark {
     color: blue;
     background-color: #cfcfcf;
-    font-size: 2rem;
+  
 
 }
 
@@ -306,9 +307,11 @@ img-fluid {
 
 /* banner2 done */
 
+
+
+
+
 /* Main */
-
-
 .sec-con {
     width: 100%;
     position: relative;
@@ -327,10 +330,6 @@ img-fluid {
     height: 90vh;
     /* row-gap: -8rem; */
 }
-
-/* .main .sec1 {
-    background-color: aqua;
-} */
 
 
 
@@ -444,26 +443,26 @@ img-fluid {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
     border-radius: 100%;
-    padding: 1rem;
     transform: rotate(80deg);
-    background-color: blue;
+    /* background-color: blue; */
     color: white;
 
 }
 
 
-.sec-con .sec2 .mdot1 {
+.sec-con .sec2 .mdot2 {
     top: 12%;
     right: 9%;
     border-radius: 100%;
 }
 
-.sec-con .sec2 .mdot2 {
+.sec-con .sec2 .mdot1 {
     top: 86%;
     left: 7%;
+
 }
 
 
@@ -476,14 +475,15 @@ img-fluid {
 .sec-con .sec2 .fa-solidd {
     background-color: blue;
     color: blue;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: bold;
+    border-radius: 100%;
 }
 
 .sec-con .sec2 .fa-xmark {
     color: blue;
     background-color: white;
-    font-size: 2rem;
+
 
 }
 
@@ -491,31 +491,48 @@ img-fluid {
 
 .sec-con2 {
     background-color: rgb(248, 249, 250);
-    position: relative;
-    padding: 2rem;
     display: flex;
-    justify-content: center;
+    padding-top: 5rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
 }
 
-.sec-con2 .sec-con2-text h4 {
-    position: relative;
-    width: 50%;
-    font-size: 4rem;
+.sec-con2 .boxx {
+    width: 30rem;
 
 }
 
+/* 
+.sec-con2 .boxx1 {
+   
+    position: relative;
+}
 
-.sec-con2 .sec-con2-text p {
+
+.sec-con2 .boxx2 {
+    background-color: rgb(177, 165, 165);
+} */
+
+
+
+.sec-con2 .boxx1 h4 {
+    font-size: 4rem;
+}
+
+
+.sec-con2 .boxx1 .boxx1-txt p {
     color: rgb(129, 137, 144);
     font-size: 1.3rem;
+
+
 }
 
-
-.sec-con2 .sec-con2-text .sec-con2-txt {
-    margin: 1rem 0;
+/* 
+.sec-con2 .sec-con2-text-con .sec-con2-txt {
+    margin: 1.5rem 0;
 }
-
+ */
 
 /* main done */
 
