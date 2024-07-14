@@ -551,6 +551,7 @@ img-fluid {
 
     /* background-color: chocolate; */
     padding-top: 2rem;
+    width: 100%;
     position: relative;
 }
 
@@ -564,7 +565,8 @@ img-fluid {
     align-items: center;
     border-radius: 30px;
     transition: ease-in-out .5s;
-    width: 16%;
+    width: 13rem;
+    padding: 2rem;
     height: 3.4rem;
     border: 1px solid white;
     color: white;
@@ -608,6 +610,7 @@ img-fluid {
 .sec-con4 .sec-image {
     display: flex;
     position: relative;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 1rem;
