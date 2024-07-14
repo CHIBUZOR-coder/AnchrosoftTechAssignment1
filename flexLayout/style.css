@@ -274,7 +274,7 @@ img-fluid {
     position: relative;
     width: 100%;
     height: 70vh;
-    background-color: blue;
+    background-color: #7E22E6;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -310,12 +310,12 @@ img-fluid {
 /* Main */
 
 
-.main {
+.sec-con {
     width: 100%;
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     /* background-color: bisque; */
 
@@ -323,7 +323,7 @@ img-fluid {
 
 }
 
-.box {
+.sec-con .box {
     width: 30rem;
     height: 90vh;
     /* row-gap: -8rem; */
@@ -335,39 +335,39 @@ img-fluid {
 
 
 
-.main .sec1 {
+.sec-con .sec1 {
     /* background-color: brown; */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
 }
 
-.main .sec1 .use {
+.sec-con .sec1 .use {
     text-align: center;
     position: relative;
     padding: 1rem;
 }
 
 
-.main .sec1 .use h3 {
+.main .sec-con .sec1 .use h3 {
     margin-top: 2rem;
     margin-bottom: .5rem;
 }
 
-.main .sec1 .use p {
+.sec-con .sec1 .use p {
     color: rgba(129, 137, 144, 1);
- 
+
 
 }
 
-.main .sec1 .use .info {
+.sec-con .sec-con .sec1 .use .info {
     position: relative;
     background-color: white;
     color: blue;
 
 }
 
-.custom-size {
+.sec-con .custom-size {
     font-size: 4rem;
     width: 2.5rem;
     background-color: white;
@@ -401,7 +401,7 @@ img-fluid {
 
 
 
-.main .sec2 {
+.sec-con .sec2 {
     /* background-color: rgb(113, 113, 144); */
     position: relative;
     display: flex;
@@ -411,7 +411,7 @@ img-fluid {
 }
 
 
-.main .sec2 .vcontainer {
+.sec-con .sec2 .vcontainer {
     /* background-color: rgb(236, 228, 242); */
     height: 95%;
     width: 50%;
@@ -423,13 +423,13 @@ img-fluid {
 }
 
 
-.vchild {
+.sec-con .vcontainer .vchild {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.main .sec2 .circle2 {
+.sec-con .sec2 .circle2 {
     position: absolute;
     height: 46%;
     width: 46%;
@@ -440,7 +440,7 @@ img-fluid {
 }
 
 
-.main .sec2 .mdots {
+.sec-con .sec2 .mdots {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -456,38 +456,66 @@ img-fluid {
 }
 
 
-.main .sec2 .mdot1 {
+.sec-con .sec2 .mdot1 {
     top: 18%;
     right: 15%;
     border-radius: 100%;
 }
 
-.sec2 .mdot2 {
+.sec-con .sec2 .mdot2 {
     top: 78%;
     left: 15%;
 }
 
 
 
-.main .sec2 .mdot2 {
+.sec-con .sec2 .mdot2 {
     background-color: white;
 
 }
 
-.main .sec2 .fa-solidd {
+.sec-con .sec2 .fa-solidd {
     background-color: blue;
     color: blue;
     font-size: 1.3rem;
     font-weight: bold;
 }
 
-.main .sec2 .fa-xmark {
+.sec-con .sec2 .fa-xmark {
     color: blue;
     background-color: white;
     font-size: 2rem;
 
 }
 
+
+
+.sec-con2 {
+    background-color: rgb(248, 249, 250);
+    position: relative;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-con2 .sec-con2-text h4 {
+    position: relative;
+    width: 50%;
+    font-size: 4rem;
+
+}
+
+
+.sec-con2 .sec-con2-text p {
+    color: rgb(129, 137, 144);
+    font-size: 1.3rem;
+}
+
+
+.sec-con2 .sec-con2-text .sec-con2-txt {
+    margin: 1rem 0;
+}
 
 
 /* main done */
