@@ -435,7 +435,7 @@ img-fluid {
     position: absolute;
     height: 58%;
     width: 58%;
-    right: 40%;
+    right: 30%;
     background: linear-gradient(blue, purple);
     border-radius: 100%;
     /* z-index: 1; */
@@ -459,13 +459,13 @@ img-fluid {
 
 .sec-con .sec2 .mdot2 {
     top: 12%;
-    right: 9%;
+    right: 16%;
     border-radius: 100%;
 }
 
 .sec-con .sec2 .mdot1 {
     top: 86%;
-    left: 7%;
+    left: 14%;
 
 }
 
@@ -751,7 +751,10 @@ img-fluid {
         font-size: .8rem;
     }
 
-
+.sec-con .sec2 {
+    /* background-color: #7E22E6; */
+    padding: 2rem;
+}
     .header .navbar ul li .navbar-btn {
         padding: .6rem .5rem;
         display: flex;
@@ -766,6 +769,7 @@ img-fluid {
     .banner {
         padding: 10rem 0 5rem 0;
     }
+
 }
 
 
@@ -856,7 +860,6 @@ img-fluid {
         align-items: center;
         gap: .5rem;
     }
-
 
 
     .sec-con .sec2 .vcontainer {
