@@ -426,7 +426,7 @@ img-fluid {
     /* background-color: rgb(236, 228, 242); */
     height: 95%;
     width: 50%;
-    border: 8px solid rgb(29, 30, 29);
+    border: 10px solid rgb(29, 30, 29);
     border-radius: 15px;
     position: relative;
     z-index: 3;
@@ -445,7 +445,7 @@ img-fluid {
     height: 58%;
     width: 58%;
     right: 30%;
-    background: linear-gradient(blue, purple);
+    background: linear-gradient(to right, blue, purple);
     border-radius: 100%;
     /* z-index: 1; */
 }
@@ -460,7 +460,7 @@ img-fluid {
     width: 20px;
     border-radius: 100%;
     transform: rotate(80deg);
-    /* background-color: blue; */
+
     color: white;
 
 }
@@ -535,7 +535,12 @@ img-fluid {
     font-size: 1.3rem;
 }
 
-
+.sec-con2 .boxx2 {
+    background: linear-gradient(to right, blue, purple);
+    border-radius: 100%;
+    height: 20rem;
+    width: 20rem;
+}
 
 .sec-con3 {
     background-color: rgb(127, 127, 127);
@@ -593,7 +598,7 @@ img-fluid {
 
 .sec-con4 {
     position: relative;
-    background-color: rgb(124, 34, 230);
+    background: linear-gradient(to right, blue, purple);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -705,6 +710,7 @@ img-fluid {
     color: rgb(83, 110, 128);
 
 }
+
 /****************Footer done***********************************************************************/
 
 
@@ -746,10 +752,11 @@ img-fluid {
         font-size: .8rem;
     }
 
-.sec-con .sec2 {
-    /* background-color: #7E22E6; */
-    padding: 2rem;
-}
+    .sec-con .sec2 {
+        /* background-color: #7E22E6; */
+        padding: 2rem;
+    }
+
     .header .navbar ul li .navbar-btn {
         padding: .6rem .5rem;
         display: flex;
