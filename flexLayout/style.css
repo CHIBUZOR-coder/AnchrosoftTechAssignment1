@@ -265,7 +265,7 @@ img-fluid {
 
     top: 80%;
     left: 10%;
-    
+
 
 }
 
@@ -781,7 +781,7 @@ img-fluid {
 
     .banner .item1 {
         /* background-color: rgb(21, 35, 194); */
-    
+
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -900,7 +900,7 @@ img-fluid {
 
     .sec-con3 {
 
-        padding: 0 2rem;
+        padding: 2rem 2rem;
 
 
     }
@@ -911,9 +911,33 @@ img-fluid {
     .banner .item1 {
 
         text-align: center;
-            padding: 0 2.5rem;
+        padding: 0 2.5rem;
     }
 
+    .sec-con3 {
+        text-align: center;
+
+    }
+
+
+}
+
+@media (max-width:669.9px) {
+    .sec-con3 .sec-con3-child {
+
+        width: 100%;
+        /* background-color: #7E22E6; */
+        text-align: center;
+    }
+
+    .sec-con3 .btn-con {
+        /* background-color: chocolate; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
 }
 
 @media (max-width:499.99px) {
