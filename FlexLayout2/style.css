@@ -25,6 +25,12 @@
     font-size: 1.3rem;
 }
 
+.header .spantag span {
+   
+    /* background-color: blueviolet; */
+    font-weight: bold;
+}
+
 .header a {
     text-decoration: none;
     background-color: blueviolet;
@@ -325,26 +331,44 @@
 
 /* media query */
 
-@media (min-width:0px) and (max-width:289.9px) {
+@media (min-width:0px) and (max-width:299.9px) {
     .header {
         padding: .3rem;
+        flex-direction: column !important;
+        justify-content: center !important;
     }
 
     .header .hchild {
         font-size: .8rem !important;
         width: 100% !important;
+
         /* background-color: black; */
     }
+
 
     .header a {
         display: flex;
         justify-content: center !important;
-        padding: .5rem .1rem !important;
+        padding: .5rem 1rem !important;
 
+
+    }
+
+    .header .spantag span {
+        font-size: 1.2rem !important;
+        /* background-color: blueviolet; */
+        font-weight: bold;
     }
 
     .banner {
         padding: 0 .252rem;
+    }
+
+    .banner .bchild1 {
+        /* background-color: blue; */
+        width: 100%;
+        font-size: 2rem;
+
     }
 
     .banner .bchild2 .form {
@@ -360,7 +384,7 @@
 
         padding: .8rem;
         font-size: 1rem !important;
-        width: 10rem;
+        width: 8rem;
         /* background-color: blueviolet; */
 
     }
@@ -391,7 +415,7 @@
 }
 
 
-@media (min-width:290px) and (max-width:399.99px) {
+@media (min-width:300px) and (max-width:399.99px) {
 
     .banner {
         padding: 0 .252rem;
@@ -405,7 +429,7 @@
     }
 
     .banner .bchild2 .form .danger {
-      
+
         right: 18%;
         top: 23%;
 
