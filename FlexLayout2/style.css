@@ -1,0 +1,571 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+.header {
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background-color: white;
+    box-shadow: 0px 20px 3px 2px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    height: 15vh;
+    z-index: 3;
+
+}
+
+.header .hchild {
+    font-size: 1.3rem;
+}
+
+.header a {
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
+    transition: ease-in-out .5s;
+
+    &:hover {
+        background-color: blue;
+    }
+}
+
+/* header done */
+
+/* banner */
+
+.banner {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/7542.jpg) center center/ cover;
+    position: relative;
+    flex-direction: column;
+}
+
+
+.banner .bchild {
+    width: 35%;
+}
+
+.banner .bchild1 {
+    position: relative;
+    /* background-color: blue; */
+    color: rgb(12, 12, 12);
+    font-size: 3rem;
+
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.banner .bchild2 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .bchild2 .form {
+    padding: 1rem;
+}
+
+.banner .bchild2 .labell {
+    display: none;
+
+}
+
+.banner .bchild2 .labell span {
+    font-size: 1.7rem;
+    color: white;
+}
+
+.banner .bchild2 .form {
+    position: relative;
+    /* background-color: brown; */
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.banner .bchild2 .form input {
+    position: relative;
+    padding: 1rem;
+    flex-grow: 1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .6rem;
+    padding: 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* background-color: blueviolet; */
+}
+
+
+.banner .bchild2 .form a {
+    text-decoration: double;
+    background-color: rgba(138, 43, 226, 0.9);
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
+    transition: ease-in-out .5s;
+
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.banner .bchild2 .form .danger {
+    position: absolute;
+    /* background-color: white; */
+    right: 30%;
+    font-size: 1.2rem;
+}
+
+.fa-circle-exclamation {
+
+    color: rgba(255, 0, 0, 0.6);
+}
+
+.banner .bchild2 .form input:focus {
+    outline: none;
+    border: none;
+}
+
+/******************************banner done******************************* */
+
+
+
+/******************************banner2******************************* */
+.banner2 {
+    position: relative;
+    background-color: rgb(248, 249, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+
+    flex-wrap: wrap;
+    height: 100vh;
+
+    .b2child {
+        position: relative;
+        flex-basis: 22rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .size {
+            position: relative;
+            width: 30%;
+            height: 30%;
+            color: blue;
+        }
+
+        .icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+        .word {
+            text-align: center;
+            font-size: 1.2rem;
+        }
+
+
+    }
+
+    /* .b2child1 {
+        background-color: blue;
+    }
+
+    .b2child2 {
+        background-color: red;
+    }
+
+    .b2child3 {
+        background-color: yellow;
+    } */
+}
+
+/***************** banner2 done *******************************************/
+
+
+
+
+/********************************banner3******************************** */
+
+.banner3 {
+    position: relative;
+    /* background-color: blue; */
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+
+
+    .b3child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+
+        /* padding: .1rem; */
+        .subchild {
+            width: 50%;
+            position: relative;
+        }
+
+
+        .schld {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 22rem;
+            flex-direction: column;
+            position: relative;
+            gap: .8rem;
+
+
+            .bTitle {
+                position: relative;
+                width: 70%;
+                font-size: 2.2rem;
+                font-weight: bold;
+            }
+
+            .btext {
+                position: relative;
+                width: 70%;
+                font-size: 1.2rem;
+            }
+
+        }
+
+        .subchildA1 {
+            background: url(./images/mobile.jpg) center center/ cover;
+            /* background-color: rgb(79, 79, 77); */
+        }
+
+        /* 
+        .subchildA2 {
+            background-color: rgb(180, 180, 175);
+        }
+
+        .subchildB2 {
+            background-color: rgb(57, 57, 5);
+        } */
+
+
+        .subchildB1 {
+            background: url(./images/code.jpg) center center/ cover;
+            /* background-color: rgb(44, 44, 28); */
+        }
+
+
+        .subchildC1 {
+            background: url(./images/coding.jpg) center center/ cover;
+            /* background-color: rgb(177, 162, 249); */
+        }
+
+        /* 
+        .subchildC2 {
+            background-color: rgb(50, 76, 94);
+        } */
+
+    }
+
+    /* 
+    .b3child1 {
+        background-color: rgb(112, 112, 28);
+
+    }
+
+    .b3child2 {
+        background-color: rgb(105, 105, 83);
+    }
+
+    .b3child3 {
+        background-color: rgb(218, 218, 82);
+    } */
+
+}
+
+
+/********************************banner3 done******************************** */
+
+
+
+
+/* media query */
+
+@media (min-width:0px) and (max-width:289.9px) {
+    .header {
+        padding: .3rem;
+    }
+
+    .header .hchild {
+        font-size: .8rem !important;
+        width: 100% !important;
+        /* background-color: black; */
+    }
+
+    .header a {
+        display: flex;
+        justify-content: center !important;
+        padding: .5rem .1rem !important;
+
+    }
+
+    .banner {
+        padding: 0 .252rem;
+    }
+
+    .banner .bchild2 .form {
+        /* background-color: brown; */
+        flex-direction: column;
+        width: 100% !important;
+
+    }
+
+    .banner .bchild2 .form input {
+
+        gap: .6rem;
+
+        padding: .8rem;
+        font-size: 1rem !important;
+        width: 10rem;
+        /* background-color: blueviolet; */
+
+    }
+
+    .banner .bchild2 {
+        width: 100%;
+        /* background-color: black; */
+    }
+
+    .banner .bchild2 .form .danger {
+        position: absolute;
+        background-color: white;
+        right: 10% !important;
+        top: 19% !important;
+
+    }
+
+    .banner .bchild2 .form a {
+
+        padding: 1rem !important;
+    }
+
+
+
+    .banner2 {
+        padding: 0 1rem !important;
+    }
+}
+
+
+@media (min-width:290px) and (max-width:399.99px) {
+
+    .banner {
+        padding: 0 .252rem;
+    }
+
+    .banner .bchild2 .form {
+        background-color: brown;
+        flex-direction: column;
+        width: 100% !important;
+
+    }
+
+    .banner .bchild2 .form .danger {
+      
+        right: 18%;
+        top: 23%;
+
+    }
+
+    .banner .bchild2 .form a {
+
+        padding: .8rem;
+    }
+
+    .banner .bchild2 .form input {
+        padding: .8rem;
+        gap: .6rem;
+        padding: 1.2rem;
+        font-size: 1.2rem;
+        /* width: 13rem; */
+        /* background-color: blueviolet; */
+
+    }
+
+
+    .banner .bchild1 {
+        /* background-color: blue; */
+        width: 100%;
+
+    }
+
+    .banner .bchild2 .form a {
+        font-size: 1.3rem;
+        background-color: rgba(138, 43, 226, 0.9);
+        padding: 1.2rem;
+        border-radius: 10px;
+        color: white;
+        transition: ease-in-out .5s;
+
+        &:hover {
+            background-color: blue;
+        }
+    }
+}
+
+@media (min-width:400px) and (max-width:699.99px) {
+    .banner .bchild1 {
+        width: 100%;
+        font-size: 2rem;
+
+    }
+
+    .header .hchild {
+        font-size: .9rem;
+
+    }
+
+    .header a {
+
+        justify-content: center;
+        padding: .5rem;
+
+    }
+
+    .title {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+
+    .bTitle {
+        /* background-color: blueviolet; */
+        position: relative;
+        width: 100% !important;
+        font-size: 1.1rem !important;
+        text-align: center;
+    }
+
+    .btext {
+        text-align: center;
+    }
+
+
+}
+
+
+@media (max-width:500.99px) {
+
+    .banner .bchild2 .form {
+        /* background-color: brown; */
+        width: 25%;
+
+    }
+
+    .banner .bchild2 .form input {
+        padding: .8rem;
+        gap: .6rem;
+        padding: 1.2rem;
+        font-size: 1.2rem;
+        /* width: 13rem; */
+        /* background-color: blueviolet; */
+
+    }
+
+
+
+
+    .banner .bchild2 .form a {
+
+        padding: .5rem;
+    }
+
+}
+
+@media (min-width:850px) and (max-width:1000.99px) {
+
+    .banner .bchild2 .form input {
+        gap: .6rem;
+        padding: 1.5rem 3.5rem;
+        /* background-color: brown; */
+
+    }
+
+}
+
+
+
+@media (min-width:400px) and (max-width:580.99px) {
+    .banner .bchild2 .form {
+        position: relative;
+        /* background-color: brown; */
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .banner .bchild2 .form .danger {
+
+        right: 35%;
+        top: 40%;
+
+    }
+
+}
+
+@media (min-width:1180.99px) {
+    /* .banner3 {
+        background-color: blue;
+    } */
+
+    .b3child2 {
+        flex-direction: row-reverse !important;
+    }
+}
+
+
+
+
+
+
+@media (max-width:1179.99px) {
+    .b3child {
+        flex-direction: column;
+    }
+}
