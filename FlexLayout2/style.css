@@ -26,7 +26,7 @@
 }
 
 .header .spantag span {
-   
+
     /* background-color: blueviolet; */
     font-weight: bold;
 }
@@ -336,6 +336,7 @@
         padding: .3rem;
         flex-direction: column !important;
         justify-content: center !important;
+        gap: 1rem;
     }
 
     .header .hchild {
@@ -383,8 +384,8 @@
         gap: .6rem;
 
         padding: .8rem;
-        font-size: 1rem !important;
-        width: 8rem;
+        font-size: .6rem !important;
+        width: 10rem;
         /* background-color: blueviolet; */
 
     }
@@ -397,7 +398,7 @@
     .banner .bchild2 .form .danger {
         position: absolute;
         background-color: white;
-        right: 10% !important;
+        right: 23% !important;
         top: 19% !important;
 
     }
@@ -415,6 +416,31 @@
 }
 
 
+@media (min-width:0px) and (max-width:390.9px) {
+    .bTitle {
+        /* background-color: blueviolet; */
+        position: relative;
+        width: 100% !important;
+        font-size: 1.1rem !important;
+        text-align: center;
+    }
+
+    .btext {
+        text-align: center;
+    }
+
+    .schld {
+       
+        height: 44rem !important;
+       
+        gap: .8rem;
+    }
+
+}
+
+
+
+
 @media (min-width:300px) and (max-width:399.99px) {
 
     .banner {
@@ -422,7 +448,7 @@
     }
 
     .banner .bchild2 .form {
-        background-color: brown;
+        /* background-color: brown; */
         flex-direction: column;
         width: 100% !important;
 
@@ -469,6 +495,9 @@
             background-color: blue;
         }
     }
+
+
+
 }
 
 @media (min-width:400px) and (max-width:699.99px) {
@@ -500,7 +529,7 @@
         /* background-color: blueviolet; */
         position: relative;
         width: 100% !important;
-        font-size: 1.1rem !important;
+        font-size: 1.4rem !important;
         text-align: center;
     }
 
