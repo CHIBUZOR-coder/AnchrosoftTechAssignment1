@@ -498,14 +498,14 @@
 .footer {
     background-color: #F8F9FA;
     /* background-color: coral; */
-    height: 20vh;
+    padding: 1rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     .ftchild {
         flex-basis: 50%;
-        height: 10vh;
+
 
     }
 
@@ -535,7 +535,7 @@
             transition: ease-in-out .5s;
 
             &:hover {
-             
+
                 border-bottom: 1px solid blue;
             }
         }
@@ -1027,3 +1027,35 @@
 
 
 
+@media (max-width:800px) {
+
+    .footer {
+        background-color: #F8F9FA;
+        /* background-color: coral; */
+        flex-direction: column;
+        padding: 1rem 0 !important;
+        /* background-color: blue; */
+
+    }
+
+    .ftchild {
+        flex-basis: 50%;
+
+
+        justify-content: center;
+
+    }
+
+    .fot2 {
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: end;
+        padding: .3rem !important;
+        align-items: center;
+    }
+
+/* 
+    .fot1 {
+        background-color: red;
+    } */
+}
