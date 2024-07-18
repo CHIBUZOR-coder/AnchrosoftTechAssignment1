@@ -331,7 +331,7 @@
 
 /* media query */
 
-@media (min-width:0px) and (max-width:299.9px) {
+@media (min-width:0px) and (max-width:300px) {
     .header {
         padding: .3rem;
         flex-direction: column !important;
@@ -397,7 +397,7 @@
 
     .banner .bchild2 .form .danger {
         position: absolute;
-        background-color: white;
+        /* background-color: white; */
         right: 23% !important;
         top: 19% !important;
 
@@ -412,6 +412,39 @@
 
     .banner2 {
         padding: 0 1rem !important;
+    }
+
+
+
+
+    .subchild {
+        width: 90% !important;
+        position: relative;
+    }
+
+    .schld {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 22rem;
+        flex-direction: column;
+        position: relative;
+        gap: .8rem;
+        background-color: rgb(94, 86, 101);
+
+        .bTitle {
+            position: relative;
+            width: 70%;
+            font-size: 1.4rem !important;
+            font-weight: bold;
+        }
+
+        .btext {
+            position: relative;
+            width: 70%;
+            font-size: 1.2rem;
+        }
+
     }
 }
 
@@ -430,9 +463,9 @@
     }
 
     .schld {
-       
+
         height: 44rem !important;
-       
+
         gap: .8rem;
     }
 
@@ -441,7 +474,7 @@
 
 
 
-@media (min-width:300px) and (max-width:399.99px) {
+@media (min-width:300.1px) and (max-width:399.99px) {
 
     .banner {
         padding: 0 .252rem;
@@ -464,6 +497,36 @@
     .banner .bchild2 .form a {
 
         padding: .8rem;
+    }
+
+    .subchild {
+        width: 90% !important;
+        position: relative;
+    }
+
+    .schld {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 22rem;
+        flex-direction: column;
+        position: relative;
+        gap: .8rem;
+        background-color: blueviolet;
+
+        .bTitle {
+            position: relative;
+            width: 70%;
+            font-size: 1.4rem !important;
+            font-weight: bold;
+        }
+
+        .btext {
+            position: relative;
+            width: 70%;
+            font-size: 1.2rem;
+        }
+
     }
 
     .banner .bchild2 .form input {
@@ -519,6 +582,13 @@
 
     }
 
+    .subchild {
+        width: 90% !important;
+        position: relative;
+        /* background-color: blue; */
+
+    }
+
     .title {
         text-align: center;
         font-size: 1.2rem;
@@ -529,12 +599,13 @@
         /* background-color: blueviolet; */
         position: relative;
         width: 100% !important;
-        font-size: 1.4rem !important;
+        font-size: 2rem !important;
         text-align: center;
     }
 
     .btext {
         text-align: center;
+        font-size: 1.4rem !important;
     }
 
 
@@ -579,6 +650,43 @@
     }
 
 }
+
+
+
+
+@media (min-width:700px) and (max-width:1180.99px) {
+
+    .subchild {
+        width: 90% !important;
+        position: relative;
+    }
+
+
+    .schld {
+
+        .bTitle {
+            position: relative;
+            width: 70%;
+            font-size: 2.5rem !important;
+            font-weight: bold;
+        }
+
+        .btext {
+            position: relative;
+            width: 70%;
+            font-size: 1.6rem !important;
+        }
+
+    }
+
+}
+
+
+
+
+
+
+
 
 
 
