@@ -391,6 +391,208 @@
 
 /********************************banner4 done*********************************/
 
+
+/********************************banner5*********************************/
+.banner5 {
+    height: 30vh;
+    background: url(./images/7542.jpg)center center/ cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .bchild5 {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: blue; */
+
+
+
+        .b5form {
+            padding: 1rem;
+            position: relative;
+            /* background-color: brown; */
+            width: 45%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+
+
+            .labell {
+                display: none;
+
+                span {
+                    font-size: 1.7rem;
+                    color: white;
+                }
+
+            }
+
+
+            input {
+                position: relative;
+                padding: 1rem;
+                flex-grow: 1;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: .6rem;
+                padding: 1.5rem;
+                border: none;
+                outline: none;
+                font-size: 1.2rem;
+                background-color: rgba(255, 255, 255, 0.5);
+                /* background-color: blueviolet; */
+            }
+
+            a {
+                text-decoration: double;
+                background-color: rgba(138, 43, 226, 0.9);
+                padding: 1rem;
+                border-radius: 10px;
+                color: white;
+                transition: ease-in-out .5s;
+
+                &:hover {
+                    background-color: blue;
+                }
+            }
+
+            .danger {
+                position: absolute;
+                /* background-color: white; */
+                right: 30%;
+                font-size: 1.2rem;
+            }
+
+
+
+            .fa-circle-exclamation {
+
+                color: rgba(255, 0, 0, 0.6);
+            }
+
+            input:focus {
+                outline: none;
+                border: none;
+            }
+        }
+    }
+
+
+
+}
+
+/********************************banner5 done*********************************/
+
+
+
+
+/********************************footer*********************************/
+.footer {
+    background-color: #F8F9FA;
+    /* background-color: coral; */
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .ftchild {
+        flex-basis: 50%;
+        height: 10vh;
+
+    }
+
+    .fot1 {
+        /* background-color: blue; */
+        display: flex;
+        justify-content: start;
+        padding: 1rem;
+        align-items: center;
+        gap: .5rem;
+
+        a {
+            color: rgb(13, 110, 253);
+
+            transition: ease-in-out .5s;
+            text-decoration: none;
+            padding: .2rem 0;
+
+            &:hover {
+                color: blue;
+
+            }
+        }
+
+
+        .list {
+            transition: ease-in-out .5s;
+
+            &:hover {
+             
+                border-bottom: 1px solid blue;
+            }
+        }
+
+    }
+
+    .fot2 {
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: end;
+        padding: 4rem;
+        align-items: center;
+
+        position: relative;
+
+        .pikin {
+            /* background-color: blue; */
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: end;
+            padding: 2rem;
+            align-items: center;
+            gap: 2rem;
+            position: relative;
+        }
+
+        a {
+            color: rgb(13, 110, 253);
+            font-size: 1.6rem;
+            transition: ease-in-out .5s;
+
+            &:hover {
+                color: blue;
+            }
+        }
+
+    }
+}
+
+/********************************footer*********************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* media query */
 
 @media (min-width:0px) and (max-width:300px) {
@@ -805,7 +1007,7 @@
 
 @media (min-width:500px) and (max-width:1180.99px) {
     .container {
-    
+
         flex-wrap: wrap;
         flex-direction: column;
 
@@ -822,3 +1024,6 @@
         color: black;
     }
 }
+
+
+
