@@ -270,6 +270,7 @@
                 position: relative;
                 width: 70%;
                 font-size: 1.2rem;
+               font-family:'Times New Roman', Times, serif ;
             }
 
         }
@@ -430,7 +431,7 @@
         flex-direction: column;
         position: relative;
         gap: .8rem;
-        background-color: rgb(94, 86, 101);
+        /* background-color: rgb(94, 86, 101); */
 
         .bTitle {
             position: relative;
@@ -512,7 +513,7 @@
         flex-direction: column;
         position: relative;
         gap: .8rem;
-        background-color: blueviolet;
+        /* background-color: blueviolet; */
 
         .bTitle {
             position: relative;
