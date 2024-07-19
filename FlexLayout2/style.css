@@ -56,6 +56,20 @@
     background: url(./images/7542.jpg) center center/ cover;
     position: relative;
     flex-direction: column;
+    z-index: 2;
+    position: relative;
+}
+
+.badge {
+    background-color: rgba(0, 0, 0, .4);
+    position: absolute;
+
+    height: 100%;
+    width: 100%;
+    top: 0;
+
+    left: 0;
+
 }
 
 
@@ -68,7 +82,7 @@
     /* background-color: blue; */
     color: rgb(12, 12, 12);
     font-size: 3rem;
-
+    z-index: 6;
     text-align: center;
     color: white;
     font-weight: bold;
@@ -92,10 +106,6 @@
 
 }
 
-.banner .bchild2 .labell span {
-    font-size: 1.7rem;
-    color: white;
-}
 
 .banner .bchild2 .form {
     position: relative;
@@ -109,19 +119,25 @@
 
 .banner .bchild2 .form input {
     position: relative;
-    padding: 1rem;
+
     flex-grow: 1;
-    border-radius: 10px;
+    border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: .6rem;
-    padding: 1.5rem;
+    padding: 1rem;
     border: none;
     outline: none;
+    z-index: 6;
     font-size: 1.2rem;
     background-color: rgba(255, 255, 255, 0.5);
     /* background-color: blueviolet; */
+    transition: ease-in-out .5s;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.7);
+    }
 }
 
 
@@ -132,6 +148,7 @@
     border-radius: 10px;
     color: white;
     transition: ease-in-out .5s;
+    z-index: 6;
 
     &:hover {
         background-color: blue;
@@ -197,11 +214,15 @@
         .title {
             text-align: center;
             font-size: 1.5rem;
+            font-family: "Metrophobic", sans-serif;
         }
 
         .word {
             text-align: center;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
+            font-family: "Metrophobic", sans-serif;
+            font-weight: lighter;
+            font-style: normal;
         }
 
 
@@ -264,13 +285,16 @@
                 width: 70%;
                 font-size: 2.2rem;
                 font-weight: bold;
+                font-family: "Metrophobic", sans-serif;
             }
 
             .btext {
                 position: relative;
                 width: 70%;
                 font-size: 1.2rem;
-                font-family: 'Times New Roman', Times, serif;
+                font-family: "Metrophobic", sans-serif;
+                font-weight: lighter;
+                font-style: normal;
             }
 
         }
@@ -384,6 +408,7 @@
         justify-content: center;
         align-items: center;
         gap: .6rem;
+        font-family: "Metrophobic", sans-serif;
     }
 }
 
@@ -394,26 +419,31 @@
 
 /********************************banner5*********************************/
 .banner5 {
-    height: 30vh;
+
     background: url(./images/7542.jpg)center center/ cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
 
     .bchild5 {
         position: relative;
         text-align: center;
         width: 100%;
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
         display: flex;
         justify-content: center;
+        flex-direction: column;
         align-items: center;
+        gap: 1rem;
         /* background-color: blue; */
 
 
 
         .b5form {
-            padding: 1rem;
             position: relative;
             /* background-color: brown; */
             width: 45%;
@@ -421,7 +451,6 @@
             justify-content: center;
             align-items: center;
             gap: 2rem;
-
 
             .labell {
                 display: none;
@@ -436,19 +465,25 @@
 
             input {
                 position: relative;
-                padding: 1rem;
                 flex-grow: 1;
-                border-radius: 10px;
+                border-radius: 8px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 gap: .6rem;
-                padding: 1.5rem;
+                padding: 1rem;
                 border: none;
                 outline: none;
+                z-index: 6;
+                transition: ease-in-out .5s;
                 font-size: 1.2rem;
                 background-color: rgba(255, 255, 255, 0.5);
                 /* background-color: blueviolet; */
+
+                &:hover {
+                    background-color: rgba(255, 255, 255, 0.7);
+                }
+
             }
 
             a {
@@ -509,37 +544,46 @@
 
     }
 
-    .fot1 {
-        /* background-color: blue; */
-        display: flex;
-        justify-content: start;
-        padding: 1rem;
-        align-items: center;
-        gap: .5rem;
+    .pp {
+        .fot1 {
+            /* background-color: blue; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: start;
+            padding: 1rem;
+            align-items: center;
+            gap: .5rem;
 
-        a {
-            color: rgb(13, 110, 253);
+            a {
+                color: rgb(13, 110, 253);
 
-            transition: ease-in-out .5s;
-            text-decoration: none;
-            padding: .2rem 0;
+                transition: ease-in-out .5s;
+                text-decoration: none;
+                padding: .2rem 0;
 
-            &:hover {
-                color: blue;
+                &:hover {
+                    color: blue;
 
+                }
             }
+
+
+            .list {
+                transition: ease-in-out .5s;
+
+                &:hover {
+
+                    border-bottom: 1px solid blue;
+                }
+            }
+
         }
 
 
-        .list {
-            transition: ease-in-out .5s;
-
-            &:hover {
-
-                border-bottom: 1px solid blue;
-            }
+        .pp2 {
+            text-align: center;
+            color: gra;
         }
-
     }
 
     .fot2 {
@@ -556,6 +600,7 @@
             position: relative;
             width: 100%;
             display: flex;
+            flex-wrap: wrap;
             justify-content: end;
             padding: 2rem;
             align-items: center;
@@ -568,8 +613,10 @@
             font-size: 1.6rem;
             transition: ease-in-out .5s;
 
+
             &:hover {
                 color: blue;
+                transform: scale(1.2);
             }
         }
 
@@ -643,12 +690,41 @@
 
     }
 
+
+    .banner5 .bchild5 .b5form {
+        flex-direction: column;
+        width: 100% !important;
+
+    }
+
     .banner .bchild2 .form input {
-
         gap: .6rem;
-
         padding: .8rem;
-        font-size: .6rem !important;
+        font-size: .8rem !important;
+        width: 10rem;
+        /* background-color: blueviolet; */
+
+    }
+
+
+    .banner2 .b2child {
+        .title {
+            /* background-color: blue; */
+            text-align: center;
+            font-size: 1.2rem;
+        }
+
+        .word {
+            /* background-color: red; */
+            text-align: center;
+            font-size: 1rem;
+        }
+    }
+
+    .banner5 .bchild5 .b5form input {
+        gap: .6rem;
+        padding: .8rem;
+        font-size: .8rem !important;
         width: 10rem;
         /* background-color: blueviolet; */
 
@@ -672,6 +748,10 @@
         padding: 1rem !important;
     }
 
+    .banner .bchild2 .form a {
+
+        padding: 1rem !important;
+    }
 
 
     .banner2 {
@@ -710,6 +790,33 @@
         }
 
     }
+
+    .bTitle {
+        /* background-color: blueviolet; */
+        position: relative;
+        width: 100% !important;
+        font-size: 1.6rem !important;
+        text-align: center;
+    }
+
+    .btext {
+        text-align: center;
+        font-size: 1.2rem !important;
+    }
+
+    .footer .pp .fot1 {
+        flex-direction: column;
+        /* background-color: red; */
+    }
+
+    .footer .fot2 a {
+        /* background-color: red; */
+        font-size: 1rem;
+        transition: ease-in-out .5s;
+
+    }
+
+
 }
 
 
@@ -751,6 +858,13 @@
 
     }
 
+
+
+    .banner5 .bchild5 .b5form {
+        flex-direction: column;
+        width: 100% !important;
+    }
+
     .banner .bchild2 .form .danger {
 
         right: 18%;
@@ -758,10 +872,6 @@
 
     }
 
-    .banner .bchild2 .form a {
-
-        padding: .8rem;
-    }
 
     .subchild {
         width: 90% !important;
@@ -804,6 +914,25 @@
     }
 
 
+    .banner5 .bchild5 .b5form input {
+        padding: .8rem;
+        gap: .6rem;
+        padding: 1.2rem;
+        font-size: 1.2rem;
+    }
+
+
+    .banner .bchild2 .labell span {
+        font-size: 1.7rem;
+        color: white;
+    }
+
+    .banner5 .bchild5 {
+        background-color: blue;
+        font-size: 1.7rem;
+
+    }
+
     .banner .bchild1 {
         /* background-color: blue; */
         width: 100%;
@@ -813,7 +942,7 @@
     .banner .bchild2 .form a {
         font-size: 1.3rem;
         background-color: rgba(138, 43, 226, 0.9);
-        padding: 1.2rem;
+        padding: .8rem !important;
         border-radius: 10px;
         color: white;
         transition: ease-in-out .5s;
@@ -823,7 +952,18 @@
         }
     }
 
+    .banner5 .bchild5 .b5form a {
+        font-size: 1.3rem;
+        background-color: rgba(138, 43, 226, 0.9);
+        padding: .8rem !important;
+        border-radius: 10px;
+        color: white;
+        transition: ease-in-out .5s;
 
+        &:hover {
+            background-color: blue;
+        }
+    }
 
 }
 
@@ -903,6 +1043,13 @@
 
     }
 
+    .banner5 .bchild5 .b5form input {
+        padding: .8rem;
+        gap: .6rem;
+        padding: 1.2rem;
+        font-size: 1.2rem;
+    }
+
 
 
 
@@ -920,6 +1067,12 @@
         padding: 1.5rem 3.5rem;
         /* background-color: brown; */
 
+    }
+
+    .banner5 .bchild5 .b5form input {
+        gap: .6rem;
+        padding: 1.5rem 3.5rem;
+        /* background-color: brown; */
     }
 
 }
@@ -1054,7 +1207,7 @@
         align-items: center;
     }
 
-/* 
+    /* 
     .fot1 {
         background-color: red;
     } */
