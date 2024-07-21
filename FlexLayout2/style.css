@@ -670,6 +670,9 @@
 
     }
 
+    #hchild {
+        font-size: .8rem !important;
+    }
 
     #hchild2 {
         font-size: .7rem !important;
@@ -741,13 +744,15 @@
         .title {
             /* background-color: blue; */
             text-align: center;
-            font-size: 1.2rem;
+            font-size: .8rem;
+            font-weight: bolder;
         }
 
         .word {
             /* background-color: red; */
             text-align: center;
-            font-size: 1rem;
+            font-size: .7rem;
+            margin-top: .5rem ;
         }
     }
 
@@ -788,7 +793,7 @@
 
 
     .banner2 {
-        padding: 0 1rem !important;
+        padding: 1rem 1rem !important;
         /* background-color: blue; */
     }
 
@@ -826,7 +831,7 @@
         .bTitle {
             position: relative;
             width: 70%;
-            font-size: 1.2rem !important;
+            font-size: 1rem !important;
             font-weight: bold;
         }
 
@@ -885,7 +890,7 @@
 
         /* background-color: blue; */
         font-size: .7rem !important;
-       
+
     }
 
 
