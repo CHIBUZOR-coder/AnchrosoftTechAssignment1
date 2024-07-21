@@ -671,9 +671,9 @@
     }
 
 
-#hchild2{
-font-size: .7rem !important;
-}
+    #hchild2 {
+        font-size: .7rem !important;
+    }
 
 
 
@@ -872,6 +872,26 @@ font-size: .7rem !important;
 
 
     }
+
+
+    .container .box .userinfo h3 {
+
+        /* background-color: blue; */
+        font-size: .9rem !important;
+        font-weight: bolder !important;
+    }
+
+    .container .box .userinfo p {
+
+        /* background-color: blue; */
+        font-size: .7rem !important;
+       
+    }
+
+
+
+
+
 
     .btext {
         text-align: center;
