@@ -671,15 +671,11 @@
     }
 
 
-    #hchild {
-        font-size: .8rem !important;
-        position: relative;
+#hchild2{
+font-size: .7rem !important;
+}
 
-    }
 
-    #hchild2 {
-        font-size: .7rem !important;
-    }
 
     .header a {
         display: flex;
@@ -697,7 +693,7 @@
 
     .banner {
         padding: 0 .252rem;
-        /* height: 300vh !important; */
+        height: 200vh !important;
     }
 
     .banner .bchild1 {
@@ -720,6 +716,14 @@
         width: 40% !important;
 
     }
+
+
+    .banner5 .bchild5 .text5 {
+        /* background-color: blue; */
+        font-size: 1.1rem;
+    }
+
+
 
     .banner .bchild2 .form input {
         gap: .6rem;
@@ -753,7 +757,10 @@
         font-size: .8rem !important;
         width: 7rem;
         /* background-color: blueviolet; */
+    }
 
+    #hchild4 {
+        font-size: .5rem !important;
     }
 
     .banner .bchild2 {
@@ -1215,6 +1222,7 @@
 
 
     .footer .pp .fot1 a {
+
         /* background-color: red; */
         font-size: .8rem;
     }
