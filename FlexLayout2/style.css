@@ -36,7 +36,7 @@
 .header a {
     text-decoration: none;
     background-color: blueviolet;
-    padding: 1rem;
+    padding: .5rem;
     border-radius: 10px;
     color: white;
     transition: ease-in-out .5s;
@@ -118,7 +118,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .banner .bchild2 .form input {
@@ -458,7 +458,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 2rem;
+            gap: 1rem;
 
             .labell {
                 display: none;
@@ -752,7 +752,7 @@
             /* background-color: red; */
             text-align: center;
             font-size: .7rem;
-            margin-top: .5rem ;
+            margin-top: .5rem;
         }
     }
 
@@ -812,7 +812,7 @@
     }
 
     .subchild {
-        width: 90% !important;
+        width: 100% !important;
         position: relative;
         /* background-color: blue; */
         height: 25rem !important;
@@ -1073,7 +1073,7 @@
 
 
     .subchild {
-        width: 90% !important;
+        width: 100% !important;
         position: relative;
     }
 
@@ -1125,9 +1125,8 @@
         font-size: 1.2rem !important;
     }
 
-    .footer .pp .fot1 {
-        flex-direction: column;
-        /* background-color: red; */
+    .footer .pp .fot1 a {
+        font-size: .65rem;
     }
 
     .footer .fot2 a {
@@ -1197,7 +1196,7 @@
 
 
     .subchild {
-        width: 90% !important;
+        width: 100% !important;
         position: relative;
     }
 
@@ -1317,7 +1316,7 @@
     }
 
     .subchild {
-        width: 90% !important;
+        width: 100% !important;
         position: relative;
         /* background-color: blue; */
 
@@ -1409,8 +1408,11 @@
 @media (min-width:700px) and (max-width:1180.99px) {
 
     .subchild {
-        width: 90% !important;
+        width: 100% !important;
         position: relative;
+        
+
+        
     }
 
 
@@ -1419,7 +1421,7 @@
         .bTitle {
             position: relative;
             width: 90% !important;
-            font-size: 2.5rem !important;
+            font-size: 1.8rem !important;
             font-weight: bold;
         }
 
