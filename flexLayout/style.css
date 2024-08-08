@@ -380,10 +380,12 @@ img-fluid {
 }
 
 .sec-con .custom-size {
-    font-size: 4rem;
+     font-size: 4rem;
     width: 2.5rem;
-    background-color: white;
-    color: blue;
+    background: linear-gradient(to right, blue, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 
 }
 
